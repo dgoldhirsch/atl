@@ -1,0 +1,17 @@
+source 'https://rubygems.org'
+git_source(:github) { |repo| "https://github.com/#{repo}.git" }
+
+ruby '2.5.1'
+
+gem 'bunny'
+gem 'faraday'
+
+group :development, :test do
+  gem 'pry-byebug'
+  gem 'pry-stack_explorer'
+end
+
+group :test do
+  gem 'rspec-core'
+  gem 'rspec-mocks'
+end

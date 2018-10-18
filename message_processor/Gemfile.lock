@@ -1,0 +1,51 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    amq-protocol (2.3.0)
+    binding_of_caller (0.8.0)
+      debug_inspector (>= 0.0.1)
+    bunny (2.11.0)
+      amq-protocol (~> 2.3.0)
+    byebug (10.0.2)
+    coderay (1.1.2)
+    debug_inspector (0.0.3)
+    diff-lcs (1.3)
+    faraday (0.15.2)
+      multipart-post (>= 1.2, < 3)
+    method_source (0.9.0)
+    multipart-post (2.0.0)
+    pry (0.11.3)
+      coderay (~> 1.1.0)
+      method_source (~> 0.9.0)
+    pry-byebug (3.6.0)
+      byebug (~> 10.0)
+      pry (~> 0.10)
+    pry-rails (0.3.6)
+      pry (>= 0.10.4)
+    pry-stack_explorer (0.4.9.2)
+      binding_of_caller (>= 0.7)
+      pry (>= 0.9.11)
+    rspec-core (3.8.0)
+      rspec-support (~> 3.8.0)
+    rspec-mocks (3.8.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.8.0)
+    rspec-support (3.8.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bunny
+  faraday
+  pry-byebug
+  pry-rails
+  pry-stack_explorer
+  rspec-core
+  rspec-mocks
+
+RUBY VERSION
+   ruby 2.5.1p57
+
+BUNDLED WITH
+   1.16.6
